@@ -1,0 +1,740 @@
+19:28:42 **** Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/Student.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Student.d" -MT"src/Student.o" -o "src/Student.o" "../src/Student.cpp"
+Finished building: ../src/Student.cpp
+ 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+20:30:34 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+Finished building: ../src/AdmissionSystem.cpp
+ 
+Building file: ../src/Center.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Center.d" -MT"src/Center.o" -o "src/Center.o" "../src/Center.cpp"
+Finished building: ../src/Center.cpp
+ 
+Building file: ../src/Course.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Course.d" -MT"src/Course.o" -o "src/Course.o" "../src/Course.cpp"
+Finished building: ../src/Course.cpp
+ 
+Building file: ../src/Student.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Student.d" -MT"src/Student.o" -o "src/Student.o" "../src/Student.cpp"
+Finished building: ../src/Student.cpp
+ 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘int menu_list()’:
+../src/cdac-addmission-system.cpp:21:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   21 | }
+      | ^
+../src/cdac-addmission-system.cpp: In function ‘int student_list()’:
+../src/cdac-addmission-system.cpp:36:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   36 | }
+      | ^
+../src/cdac-addmission-system.cpp: In function ‘int admin_list()’:
+../src/cdac-addmission-system.cpp:57:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   57 | }
+      | ^
+../src/cdac-addmission-system.cpp: In function ‘int center_coordinator_list()’:
+../src/cdac-addmission-system.cpp:69:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   69 | }
+      | ^
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+20:31:00 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘int menu_list()’:
+../src/cdac-addmission-system.cpp:21:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   21 | }
+      | ^
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+20:31:12 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+20:31:15 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.
+20:31:30 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:24 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:30 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+20:37:46 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+20:37:53 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:36 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/AdmissionSystem.cpp:8:
+../src/AdmissionSystem.h:32:19: error: field ‘capacities’ has incomplete type ‘Capacites’
+   32 |  struct Capacites capacities;
+      |                   ^~~~~~~~~~
+../src/AdmissionSystem.h:32:9: note: forward declaration of ‘struct Capacites’
+   32 |  struct Capacites capacities;
+      |         ^~~~~~~~~
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+make: *** [src/AdmissionSystem.o] Error 1
+20:47:15 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/AdmissionSystem.cpp:8:
+../src/AdmissionSystem.h:32:2: error: ‘Capacites’ does not name a type; did you mean ‘Capacities’?
+   32 |  Capacites capacities;
+      |  ^~~~~~~~~
+      |  Capacities
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+make: *** [src/AdmissionSystem.o] Error 1
+20:47:40 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+Finished building: ../src/AdmissionSystem.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+21:03:36 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+Finished building: ../src/AdmissionSystem.cpp
+ 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+21:09:06 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+21:11:08 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+21:19:30 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘int main()’:
+../src/cdac-addmission-system.cpp:88:30: error: no matching function for call to ‘getline(std::ofstream&, std::string&)’
+   88 |   while(getline(my_file, line)) {
+      |                              ^
+In file included from /usr/include/c++/9/cstdio:42,
+                 from /usr/include/c++/9/ext/string_conversions.h:43,
+                 from /usr/include/c++/9/bits/basic_string.h:6493,
+                 from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/istream:38,
+                 from /usr/include/c++/9/fstream:38,
+                 from ../src/cdac-addmission-system.cpp:8:
+/usr/include/stdio.h:616:20: note: candidate: ‘__ssize_t getline(char**, size_t*, FILE*)’
+  616 | extern _IO_ssize_t getline (char **__restrict __lineptr,
+      |                    ^~~~~~~
+/usr/include/stdio.h:616:20: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/c++/9/string:56,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/istream:38,
+                 from /usr/include/c++/9/fstream:38,
+                 from ../src/cdac-addmission-system.cpp:8:
+/usr/include/c++/9/bits/basic_string.tcc:1538:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)’
+ 1538 |     getline(basic_istream<_CharT, _Traits>& __in,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.tcc:1538:5: note:   template argument deduction/substitution failed:
+../src/cdac-addmission-system.cpp:88:30: note:   ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   88 |   while(getline(my_file, line)) {
+      |                              ^
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/istream:38,
+                 from /usr/include/c++/9/fstream:38,
+                 from ../src/cdac-addmission-system.cpp:8:
+/usr/include/c++/9/bits/basic_string.h:6456:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6456 |     getline(basic_istream<_CharT, _Traits>& __is,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6456:5: note:   template argument deduction/substitution failed:
+../src/cdac-addmission-system.cpp:88:30: note:   ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   88 |   while(getline(my_file, line)) {
+      |                              ^
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/istream:38,
+                 from /usr/include/c++/9/fstream:38,
+                 from ../src/cdac-addmission-system.cpp:8:
+/usr/include/c++/9/bits/basic_string.h:6464:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)’
+ 6464 |     getline(basic_istream<_CharT, _Traits>&& __is,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6464:5: note:   template argument deduction/substitution failed:
+../src/cdac-addmission-system.cpp:88:30: note:   ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   88 |   while(getline(my_file, line)) {
+      |                              ^
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/istream:38,
+                 from /usr/include/c++/9/fstream:38,
+                 from ../src/cdac-addmission-system.cpp:8:
+/usr/include/c++/9/bits/basic_string.h:6471:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6471 |     getline(basic_istream<_CharT, _Traits>&& __is,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6471:5: note:   template argument deduction/substitution failed:
+../src/cdac-addmission-system.cpp:88:30: note:   ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   88 |   while(getline(my_file, line)) {
+      |                              ^
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+make: *** [src/cdac-addmission-system.o] Error 1
+21:22:09 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘int main()’:
+../src/cdac-addmission-system.cpp:88:30: error: no matching function for call to ‘getline(std::ofstream&, std::string&)’
+   88 |   while(getline(my_file, line)) {
+      |                              ^
+In file included from /usr/include/c++/9/cstdio:42,
+                 from /usr/include/c++/9/ext/string_conversions.h:43,
+                 from /usr/include/c++/9/bits/basic_string.h:6493,
+                 from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/istream:38,
+                 from /usr/include/c++/9/fstream:38,
+                 from ../src/cdac-addmission-system.cpp:8:
+/usr/include/stdio.h:616:20: note: candidate: ‘__ssize_t getline(char**, size_t*, FILE*)’
+  616 | extern _IO_ssize_t getline (char **__restrict __lineptr,
+      |                    ^~~~~~~
+/usr/include/stdio.h:616:20: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/c++/9/string:56,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/istream:38,
+                 from /usr/include/c++/9/fstream:38,
+                 from ../src/cdac-addmission-system.cpp:8:
+/usr/include/c++/9/bits/basic_string.tcc:1538:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)’
+ 1538 |     getline(basic_istream<_CharT, _Traits>& __in,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.tcc:1538:5: note:   template argument deduction/substitution failed:
+../src/cdac-addmission-system.cpp:88:30: note:   ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   88 |   while(getline(my_file, line)) {
+      |                              ^
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/istream:38,
+                 from /usr/include/c++/9/fstream:38,
+                 from ../src/cdac-addmission-system.cpp:8:
+/usr/include/c++/9/bits/basic_string.h:6456:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6456 |     getline(basic_istream<_CharT, _Traits>& __is,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6456:5: note:   template argument deduction/substitution failed:
+../src/cdac-addmission-system.cpp:88:30: note:   ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   88 |   while(getline(my_file, line)) {
+      |                              ^
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/istream:38,
+                 from /usr/include/c++/9/fstream:38,
+                 from ../src/cdac-addmission-system.cpp:8:
+/usr/include/c++/9/bits/basic_string.h:6464:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)’
+ 6464 |     getline(basic_istream<_CharT, _Traits>&& __is,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6464:5: note:   template argument deduction/substitution failed:
+../src/cdac-addmission-system.cpp:88:30: note:   ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   88 |   while(getline(my_file, line)) {
+      |                              ^
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/istream:38,
+                 from /usr/include/c++/9/fstream:38,
+                 from ../src/cdac-addmission-system.cpp:8:
+/usr/include/c++/9/bits/basic_string.h:6471:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6471 |     getline(basic_istream<_CharT, _Traits>&& __is,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6471:5: note:   template argument deduction/substitution failed:
+../src/cdac-addmission-system.cpp:88:30: note:   ‘std::ofstream’ {aka ‘std::basic_ofstream<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   88 |   while(getline(my_file, line)) {
+      |                              ^
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+make: *** [src/cdac-addmission-system.o] Error 1
+21:22:44 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+21:23:04 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+21:23:50 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+22:40:37 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void read_record()’:
+../src/cdac-addmission-system.cpp:30:6: error: ‘vector’ was not declared in this scope
+   30 |      vector<string> row;
+      |      ^~~~~~
+../src/cdac-addmission-system.cpp:10:1: note: ‘std::vector’ is defined in header ‘<vector>’; did you forget to ‘#include <vector>’?
+    9 | #include <iostream>
+  +++ |+#include <vector>
+   10 | using namespace std;
+../src/cdac-addmission-system.cpp:30:19: error: expected primary-expression before ‘>’ token
+   30 |      vector<string> row;
+      |                   ^
+../src/cdac-addmission-system.cpp:30:21: error: ‘row’ was not declared in this scope
+   30 |      vector<string> row;
+      |                     ^~~
+../src/cdac-addmission-system.cpp:42:29: error: variable ‘std::stringstream s’ has initializer but incomplete type
+   42 |          stringstream s(line);
+      |                             ^
+../src/cdac-addmission-system.cpp:24:27: warning: unused variable ‘i’ [-Wunused-variable]
+   24 |      int roll2, count = 0,i=0;
+      |                           ^
+make: *** [src/cdac-addmission-system.o] Error 1
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+22:41:28 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void read_record()’:
+../src/cdac-addmission-system.cpp:44:29: error: variable ‘std::stringstream s’ has initializer but incomplete type
+   44 |          stringstream s(line);
+      |                             ^
+../src/cdac-addmission-system.cpp:26:27: warning: unused variable ‘i’ [-Wunused-variable]
+   26 |      int roll2, count = 0,i=0;
+      |                           ^
+make: *** [src/cdac-addmission-system.o] Error 1
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+22:43:43 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void read_record()’:
+../src/cdac-addmission-system.cpp:44:29: error: variable ‘std::stringstream s’ has initializer but incomplete type
+   44 |          stringstream s(line);
+      |                             ^
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+make: *** [src/cdac-addmission-system.o] Error 1
+22:47:47 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void read_record()’:
+../src/cdac-addmission-system.cpp:44:29: error: variable ‘std::stringstream s’ has initializer but incomplete type
+   44 |          stringstream s(line);
+      |                             ^
+../src/cdac-addmission-system.cpp:48:33: error: expected ‘)’ before ‘{’ token
+   48 |          while (getline(s, word)
+      |                ~                ^
+      |                                 )
+   49 |          {
+      |          ~                       
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+make: *** [src/cdac-addmission-system.o] Error 1
+22:48:04 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void read_record()’:
+../src/cdac-addmission-system.cpp:44:29: error: variable ‘std::stringstream s’ has initializer but incomplete type
+   44 |          stringstream s(line);
+      |                             ^
+make: *** [src/cdac-addmission-system.o] Error 1
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+22:48:37 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void read_record()’:
+../src/cdac-addmission-system.cpp:44:36: error: variable ‘std::stringstream s’ has initializer but incomplete type
+   44 |          std :: stringstream s(line);
+      |                                    ^
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+make: *** [src/cdac-addmission-system.o] Error 1
+22:50:18 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+22:50:52 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+22:56:38 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.
+22:57:01 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.
+22:57:42 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+22:58:43 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+22:58:55 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+22:59:28 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+23:00:27 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+23:01:24 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+23:02:12 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+23:02:39 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void read_record()’:
+../src/cdac-addmission-system.cpp:68:23: warning: ‘roll2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   68 |                       if (roll2 == rollnum)
+      |                       ^~
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+23:03:06 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void read_record()’:
+../src/cdac-addmission-system.cpp:68:23: warning: ‘roll2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   68 |                       if (roll2 == rollnum)
+      |                       ^~
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+23:04:08 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void read_record()’:
+../src/cdac-addmission-system.cpp:66:23: warning: ‘roll2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   66 |                       if (roll2 == rollnum)
+      |                       ^~
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+23:05:50 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+23:09:26 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+23:09:52 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+23:10:42 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+23:10:55 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.
+23:11:02 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.
+23:17:19 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+23:17:27 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.
+23:17:42 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
