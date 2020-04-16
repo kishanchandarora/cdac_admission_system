@@ -5,79 +5,14 @@
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
 //============================================================================
+
+#include "AdmissionSystem.h"
 #include<fstream>
 #include <iostream>
 #include <sstream>
 using namespace std;
 
 #include<vector>
-
-
-void read_record()
-	{
-         // File pointer
-	    ifstream fin;
-
-	    // Open an existing file
-	    fin.open("reportcard.csv", ios::in);
-
-	    // Get the roll number
-	    // of which the data is required
-	    int rollnum;
-	    int roll2, count = 0;
-	    cout << "Enter the roll number of the student to display details: ";
-	    cin >> rollnum;
-
-	    if(!fin.is_open()) {
-	    	cout<<"Fail to open a file"<<endl;
-	    }
-
-	    // Read the Data from the file
-	    // as String Vector
-	    vector<string> row;
-	    string line, word, temp;
-
-	    while (fin.good()) {
-
-	        row.clear();
-
-	        // read an entire row and
-	        // store it in a string variable 'line'
-	        getline(fin, line);
-	        // used for breaking words
-	        std :: stringstream s(line);
-
-	        // read every column data of a row and
-	        // store it in a string variable, 'word'
-	        while (getline(s, word, ','))
-	        {
-
-	            // add all the column data
-	            // of a row to a vector
-	            row.push_back(word);
-	        }
-	        // convert string to integer for comparision
-                 roll2 = stoi(row[0]);
-	        // Compare the roll number
-
-                      if (roll2 == rollnum)
-                     {
-	            // Print the found data
-	            count = 1;
-	            cout << "Details of Roll " << row[0] << " : \n";
-	            cout << "Name: " << row[1] << "\n";
-	            cout << "Maths: " << row[2] << "\n";
-	            cout << "Physics: " << row[3] << "\n";
-	            cout << "Chemistry: " << row[4] << "\n";
-	            cout << "Biology: " << row[5] << "\n";
-	            break;
-	        }
-	    }
-	    if (count == 0)
-	        cout << "Record not found\n";
-	}
-
-
 
 int menu_list(void) {
 	int choice;
@@ -98,7 +33,7 @@ int student_list(void) {
 	cout<<"2. Sign in"<<endl;
 	cout<<"3. List courses"<<endl;
 	cout<<"4. List centers"<<endl;
-	cout<<"5. Give peferences"<<endl;
+	cout<<"5. Give preferences"<<endl;
 	cout<<"6. See allocated center/course"<<endl;
 	cout<<"7. Update payment details"<<endl;
 	cout<<"Enter your choice : ";
@@ -141,10 +76,62 @@ int center_coordinator_list() {
 	return choice;
 }
 
-int main2() {
-	int choice, sub_choice;
+void load_students(vector<Student>& students) {
+	ifstream fin("students.csv", ios :: in);
+	if(!fin.is_open()) {
+		cout<<"Failed to open a file!"<<endl;
+		return;
+	}
 
+	string token[13], line;
+
+	int c=0;
+	while(getline(fin, line)) {
+		stringstream s(line);
+		cout<<line<<endl;
+		for(int i=0; i<13; i++)
+			getline(s, token[i], ',');
+		Student stu(stoi(token[0]), token[1], stoi(token[2]), stoi(token[3]), stoi(token[4]),
+				 token[5], stof(token[6]), stoi(token[7]), token[8], token[9], stof(token[10]),
+				 stoi(token[11]), token[12]);
+		students.push_back(stu);
+		c++;
+	}
+	cout<<"Courses Loaded : "<<c<<endl;
+	fin.close();
+}
+
+
+void save_students(vector<Student>& students) {
+	ofstream fout("students.csv", ios :: out);
+
+	if(!fout.is_open()) {
+		cout<<"Failed to opened file"<<endl;
+		return;
+	}
+
+
+	for(int i=0; i<students.size(); i++) {
+		fout << students[i].getId() << "," << students[i].getName()<< ","
+				<< students[i].getRankA()<< "," << students[i].getRankB()<< ","
+				<< students[i].getRankC() <<","<< students[i].getDegree() << "," << students[i].getDegreeMarks()<< ","
+				<< students[i].getPreference()<< "," << students[i].getCourseName()<< ","
+				<< students[i].getCenterId() << ","<<students[i].getPayment() << "," << students[i].getReported()<< ","
+				<< students[i].getPrn()<< endl;
+	}
+
+	cout << "Students saved." << endl;
+
+	fout.close();
+
+
+}
+
+int main() {
+	int choice, sub_choice;
+	vector<Student> students;
 	while(1) {
+
 		switch(choice = menu_list()) {
 		case 0:
 			exit(0);
@@ -156,12 +143,16 @@ int main2() {
 				case 0:
 					break;
 				case 1:
+					load_students(students);
+					save_students(students);
+
 					break;
 				case 2:
 					break;
 				case 3:
 					break;
 				case 4:
+					//list_center("centers.csv");
 					break;
 				case 5:
 					break;
@@ -273,7 +264,8 @@ int main1() {
 
 
 
-int main(void) {
-	read_record();
-	return 0;
-}
+//
+//int main(void) {
+//	read_record("reportcard.csv");
+//	return 0;
+//}

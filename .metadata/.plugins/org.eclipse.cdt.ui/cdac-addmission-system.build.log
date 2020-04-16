@@ -1,15 +1,6 @@
-23:17:42 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+05:31:22 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
 make all 
-Building file: ../src/cdac-addmission-system.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
-Finished building: ../src/cdac-addmission-system.cpp
- 
-Building target: cdac-addmission-system
-Invoking: GCC C++ Linker
-g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
-Finished building target: cdac-addmission-system
- 
+make: Nothing to be done for 'all'.
 
-23:17:44 Build Finished. 0 errors, 0 warnings. (took 1s.492ms)
+05:31:22 Build Finished. 0 errors, 0 warnings. (took 675ms)
 

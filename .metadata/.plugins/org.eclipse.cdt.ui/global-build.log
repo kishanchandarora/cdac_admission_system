@@ -738,3 +738,2110 @@ Invoking: GCC C++ Linker
 g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
 Finished building target: cdac-addmission-system
  
+01:12:21 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void read_record(char*)’:
+../src/cdac-addmission-system.cpp:32:31: error: ‘filename’ was not declared in this scope; did you mean ‘file_name’?
+   32 |      ifstream fin = read_file(filename);
+      |                               ^~~~~~~~
+      |                               file_name
+../src/cdac-addmission-system.cpp: In function ‘int main()’:
+../src/cdac-addmission-system.cpp:293:14: error: too few arguments to function ‘void read_record(char*)’
+  293 |  read_record();
+      |              ^
+../src/cdac-addmission-system.cpp:29:6: note: declared here
+   29 | void read_record(char *file_name)
+      |      ^~~~~~~~~~~
+../src/cdac-addmission-system.cpp: In function ‘std::ifstream read_file(char*)’:
+../src/cdac-addmission-system.cpp:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+   27 | }
+      | ^
+make: *** [src/cdac-addmission-system.o] Error 1
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+01:12:54 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void read_record(char*)’:
+../src/cdac-addmission-system.cpp:32:31: error: ‘filename’ was not declared in this scope; did you mean ‘file_name’?
+   32 |      ifstream fin = read_file(filename);
+      |                               ^~~~~~~~
+      |                               file_name
+../src/cdac-addmission-system.cpp: In function ‘int main()’:
+../src/cdac-addmission-system.cpp:293:14: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  293 |  read_record("reportcard.csv");
+      |              ^~~~~~~~~~~~~~~~
+../src/cdac-addmission-system.cpp: In function ‘std::ifstream read_file(char*)’:
+../src/cdac-addmission-system.cpp:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+   27 | }
+      | ^
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+make: *** [src/cdac-addmission-system.o] Error 1
+01:13:19 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘int main()’:
+../src/cdac-addmission-system.cpp:293:14: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  293 |  read_record("reportcard.csv");
+      |              ^~~~~~~~~~~~~~~~
+../src/cdac-addmission-system.cpp: In function ‘std::ifstream read_file(char*)’:
+../src/cdac-addmission-system.cpp:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+   27 | }
+      | ^
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+01:13:44 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘int main()’:
+../src/cdac-addmission-system.cpp:291:14: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  291 |  read_record("reportcard.csv");
+      |              ^~~~~~~~~~~~~~~~
+../src/cdac-addmission-system.cpp: In function ‘std::ifstream read_file(char*)’:
+../src/cdac-addmission-system.cpp:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+   27 | }
+      | ^
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+01:14:15 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘int main()’:
+../src/cdac-addmission-system.cpp:292:14: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  292 |  read_record("reportcard.csv");
+      |              ^~~~~~~~~~~~~~~~
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+01:17:15 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘int main()’:
+../src/cdac-addmission-system.cpp:320:2: error: ‘read_record’ was not declared in this scope
+  320 |  read_record("reportcard.csv");
+      |  ^~~~~~~~~~~
+make: *** [src/cdac-addmission-system.o] Error 1
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+01:27:03 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘int main()’:
+../src/cdac-addmission-system.cpp:167:18: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  167 |      list_course("courses.csv");
+      |                  ^~~~~~~~~~~~~
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+01:28:11 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+01:29:05 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+01:30:11 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+01:33:03 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+01:33:51 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+01:35:12 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+02:21:47 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+Finished building: ../src/AdmissionSystem.cpp
+ 
+Building file: ../src/Center.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Center.d" -MT"src/Center.o" -o "src/Center.o" "../src/Center.cpp"
+In file included from ../src/Center.cpp:8:
+../src/Center.h:20:2: error: ‘Course’ does not name a type
+   20 |  Course courses;
+      |  ^~~~~~
+make: *** [src/Center.o] Error 1
+src/subdir.mk:30: recipe for target 'src/Center.o' failed
+02:22:06 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+Finished building: ../src/AdmissionSystem.cpp
+ 
+Building file: ../src/Center.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Center.d" -MT"src/Center.o" -o "src/Center.o" "../src/Center.cpp"
+Finished building: ../src/Center.cpp
+ 
+Building file: ../src/Course.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Course.d" -MT"src/Course.o" -o "src/Course.o" "../src/Course.cpp"
+Finished building: ../src/Course.cpp
+ 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+02:25:19 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:7:20: error: #include nested too deeply
+    7 | #include "Course.h"
+      |                    ^
+../src/Center.h:8:17: error: #include nested too deeply
+    8 | #include<string>
+      |                 ^
+../src/Center.h:9:19: error: #include nested too deeply
+    9 | #include<iostream>
+      |                   ^
+In file included from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/AdmissionSystem.h:11,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Course.h:8:17: error: #include nested too deeply
+    8 | #include<string>
+      |                 ^
+../src/Course.h:10:19: error: #include nested too deeply
+   10 | #include<iostream>
+      |                   ^
+../src/Course.h:11:20: error: #include nested too deeply
+   11 | #include "Center.h"
+      |                    ^
+In file included from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:21:2: error: ‘Course’ does not name a type
+   21 |  Course courses;
+      |  ^~~~~~
+make: *** [src/AdmissionSystem.o] Error 1
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+02:25:55 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/Course.h:16,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:21:2: error: ‘Course’ does not name a type
+   21 |  Course courses;
+      |  ^~~~~~
+make: *** [src/AdmissionSystem.o] Error 1
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+02:26:08 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:7:20: error: #include nested too deeply
+    7 | #include "Course.h"
+      |                    ^
+../src/Center.h:8:17: error: #include nested too deeply
+    8 | #include<string>
+      |                 ^
+../src/Center.h:9:19: error: #include nested too deeply
+    9 | #include<iostream>
+      |                   ^
+In file included from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/AdmissionSystem.h:11,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Course.h:8:17: error: #include nested too deeply
+    8 | #include<string>
+      |                 ^
+../src/Course.h:10:19: error: #include nested too deeply
+   10 | #include<iostream>
+      |                   ^
+../src/Course.h:11:20: error: #include nested too deeply
+   11 | #include "Center.h"
+      |                    ^
+In file included from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/Center.h:7,
+                 from ../src/Course.h:11,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:21:2: error: ‘Course’ does not name a type
+   21 |  Course courses;
+      |  ^~~~~~
+make: *** [src/AdmissionSystem.o] Error 1
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+02:26:37 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/Course.h:16,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:21:2: error: ‘Course’ does not name a type
+   21 |  Course courses;
+      |  ^~~~~~
+make: *** [src/AdmissionSystem.o] Error 1
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+02:27:12 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/Course.h:16,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:23:2: error: ‘Course’ does not name a type
+   23 |  Course courses;
+      |  ^~~~~~
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+make: *** [src/AdmissionSystem.o] Error 1
+02:27:26 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/Course.h:16,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:23:2: error: ‘Course’ does not name a type
+   23 |  Course courses;
+      |  ^~~~~~
+make: *** [src/AdmissionSystem.o] Error 1
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+02:28:49 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/Course.h:16,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:25:9: error: field ‘courses’ has incomplete type ‘Course’
+   25 |  Course courses;
+      |         ^~~~~~~
+In file included from ../src/Course.h:16,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:8:7: note: forward declaration of ‘class Course’
+    8 | class Course;
+      |       ^~~~~~
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+make: *** [src/AdmissionSystem.o] Error 1
+02:29:18 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/Course.h:16,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:24:9: error: field ‘courses’ has incomplete type ‘Course’
+   24 |  Course courses;
+      |         ^~~~~~~
+../src/Center.h:8:7: note: forward declaration of ‘class Course’
+    8 | class Course;
+      |       ^~~~~~
+make: *** [src/AdmissionSystem.o] Error 1
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+02:29:28 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/Course.h:16,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:23:2: error: ‘Course’ does not name a type
+   23 |  Course courses;
+      |  ^~~~~~
+make: *** [src/AdmissionSystem.o] Error 1
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+02:29:38 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/Course.h:16,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:23:2: error: ‘Course’ does not name a type
+   23 |  Course courses;
+      |  ^~~~~~
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+make: *** [src/AdmissionSystem.o] Error 1
+02:29:57 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+Finished building: ../src/AdmissionSystem.cpp
+ 
+Building file: ../src/Center.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Center.d" -MT"src/Center.o" -o "src/Center.o" "../src/Center.cpp"
+Finished building: ../src/Center.cpp
+ 
+Building file: ../src/Course.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Course.d" -MT"src/Course.o" -o "src/Course.o" "../src/Course.cpp"
+Finished building: ../src/Course.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+02:30:06 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/Course.h:16,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:23:2: error: ‘Course’ does not name a type
+   23 |  Course courses;
+      |  ^~~~~~
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+make: *** [src/AdmissionSystem.o] Error 1
+02:30:23 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Course.h:23:2: error: ‘Center’ does not name a type
+   23 |  Center centers;
+      |  ^~~~~~
+make: *** [src/AdmissionSystem.o] Error 1
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+02:31:21 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+In file included from ../src/Course.h:16,
+                 from ../src/AdmissionSystem.h:10,
+                 from ../src/AdmissionSystem.cpp:8:
+../src/Center.h:23:2: error: ‘Course’ does not name a type
+   23 |  Course courses;
+      |  ^~~~~~
+src/subdir.mk:30: recipe for target 'src/AdmissionSystem.o' failed
+make: *** [src/AdmissionSystem.o] Error 1
+02:35:54 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+Finished building: ../src/AdmissionSystem.cpp
+ 
+Building file: ../src/Center.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Center.d" -MT"src/Center.o" -o "src/Center.o" "../src/Center.cpp"
+Finished building: ../src/Center.cpp
+ 
+Building file: ../src/Course.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Course.d" -MT"src/Course.o" -o "src/Course.o" "../src/Course.cpp"
+Finished building: ../src/Course.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+02:39:47 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+Finished building: ../src/AdmissionSystem.cpp
+ 
+Building file: ../src/Course.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Course.d" -MT"src/Course.o" -o "src/Course.o" "../src/Course.cpp"
+Finished building: ../src/Course.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+03:09:40 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+03:10:45 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.
+03:11:15 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.
+04:28:25 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp:79:27: error: ‘Student’ was not declared in this scope
+   79 | void load_students(vector<Student>& students) {
+      |                           ^~~~~~~
+../src/cdac-addmission-system.cpp:79:34: error: template argument 1 is invalid
+   79 | void load_students(vector<Student>& students) {
+      |                                  ^
+../src/cdac-addmission-system.cpp:79:34: error: template argument 2 is invalid
+../src/cdac-addmission-system.cpp: In function ‘int main()’:
+../src/cdac-addmission-system.cpp:104:6: error: ‘list_center’ was not declared in this scope
+  104 |      list_center("centers.csv");
+      |      ^~~~~~~~~~~
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+make: *** [src/cdac-addmission-system.o] Error 1
+04:29:19 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+04:31:30 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+04:44:01 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+Finished building: ../src/AdmissionSystem.cpp
+ 
+Building file: ../src/Student.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Student.d" -MT"src/Student.o" -o "src/Student.o" "../src/Student.cpp"
+Finished building: ../src/Student.cpp
+ 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+./src/cdac-addmission-system.o: In function `load_students(std::vector<Student, std::allocator<Student> >&)':
+/home/sunbeam/Desktop/cdac-system/cdac-addmission-system/Debug/../src/cdac-addmission-system.cpp:96: undefined reference to `Student::Student(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, float, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, float, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+collect2: error: ld returned 1 exit status
+makefile:45: recipe for target 'cdac-addmission-system' failed
+make: *** [cdac-addmission-system] Error 1
+04:47:41 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/Student.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Student.d" -MT"src/Student.o" -o "src/Student.o" "../src/Student.cpp"
+Finished building: ../src/Student.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+04:49:16 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/Student.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Student.d" -MT"src/Student.o" -o "src/Student.o" "../src/Student.cpp"
+Finished building: ../src/Student.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+04:50:45 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+04:51:22 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+05:00:23 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+Finished building: ../src/AdmissionSystem.cpp
+ 
+Building file: ../src/Student.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Student.d" -MT"src/Student.o" -o "src/Student.o" "../src/Student.cpp"
+../src/Student.cpp:27:1: error: no declaration matches ‘Student::Student(int, std::string, int, int, int, std::string, float, std::string, int, float, int, std::string, int)’
+   27 | Student :: Student(int id, string name, int rank_a, int rank_b, int rank_c ,string degree, float degree_marks,
+      | ^~~~~~~
+In file included from ../src/Student.cpp:8:
+../src/Student.h:15:7: note: candidates are: ‘Student::Student(const Student&)’
+   15 | class Student {
+      |       ^~~~~~~
+../src/Student.h:33:2: note:                 ‘Student::Student(int, std::string, int, int, int, std::string, float, int, std::string, int, float, int, std::string)’
+   33 |  Student(int id, string name, int rank_a, int rank_b, int rank_c ,string degree, float degree_marks,
+      |  ^~~~~~~
+../src/Student.cpp:10:1: note:                 ‘Student::Student()’
+   10 | Student::Student() {
+      | ^~~~~~~
+In file included from ../src/Student.cpp:8:
+../src/Student.h:15:7: note: ‘class Student’ defined here
+   15 | class Student {
+      |       ^~~~~~~
+src/subdir.mk:30: recipe for target 'src/Student.o' failed
+make: *** [src/Student.o] Error 1
+05:01:01 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/Student.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Student.d" -MT"src/Student.o" -o "src/Student.o" "../src/Student.cpp"
+Finished building: ../src/Student.cpp
+ 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void load_students(std::vector<Student>&)’:
+../src/cdac-addmission-system.cpp:96:32: error: no matching function for call to ‘Student::Student(int, std::string&, int, int, int, std::string&, float, int, std::string&, std::string&, float, int, std::string&)’
+   96 |      stoi(token[11]), token[12]);
+      |                                ^
+In file included from ../src/AdmissionSystem.h:12,
+                 from ../src/cdac-addmission-system.cpp:9:
+../src/Student.h:33:2: note: candidate: ‘Student::Student(int, std::string, int, int, int, std::string, float, int, std::string, int, float, int, std::string)’
+   33 |  Student(int id, string name, int rank_a, int rank_b, int rank_c ,string degree, float degree_marks,
+      |  ^~~~~~~
+../src/Student.h:34:45: note:   no known conversion for argument 10 from ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} to ‘int’
+   34 |     int preference, string course_name, int center_id, float payment, int reported, string prn);
+      |                                         ~~~~^~~~~~~~~
+../src/Student.h:31:2: note: candidate: ‘Student::Student()’
+   31 |  Student();
+      |  ^~~~~~~
+../src/Student.h:31:2: note:   candidate expects 0 arguments, 13 provided
+../src/Student.h:15:7: note: candidate: ‘Student::Student(const Student&)’
+   15 | class Student {
+      |       ^~~~~~~
+../src/Student.h:15:7: note:   candidate expects 1 argument, 13 provided
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+make: *** [src/cdac-addmission-system.o] Error 1
+05:01:35 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void load_students(std::vector<Student>&)’:
+../src/cdac-addmission-system.cpp:96:32: error: no matching function for call to ‘Student::Student(int, std::string&, int, int, int, std::string&, float, int, std::string&, std::string&, float, int, std::string&)’
+   96 |      stoi(token[11]), token[12]);
+      |                                ^
+In file included from ../src/AdmissionSystem.h:12,
+                 from ../src/cdac-addmission-system.cpp:9:
+../src/Student.h:33:2: note: candidate: ‘Student::Student(int, std::string, int, int, int, std::string, float, int, std::string, int, float, int, std::string)’
+   33 |  Student(int id, string name, int rank_a, int rank_b, int rank_c ,string degree, float degree_marks,
+      |  ^~~~~~~
+../src/Student.h:34:45: note:   no known conversion for argument 10 from ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} to ‘int’
+   34 |     int preference, string course_name, int center_id, float payment, int reported, string prn);
+      |                                         ~~~~^~~~~~~~~
+../src/Student.h:31:2: note: candidate: ‘Student::Student()’
+   31 |  Student();
+      |  ^~~~~~~
+../src/Student.h:31:2: note:   candidate expects 0 arguments, 13 provided
+../src/Student.h:15:7: note: candidate: ‘Student::Student(const Student&)’
+   15 | class Student {
+      |       ^~~~~~~
+../src/Student.h:15:7: note:   candidate expects 1 argument, 13 provided
+src/subdir.mk:30: recipe for target 'src/cdac-addmission-system.o' failed
+make: *** [src/cdac-addmission-system.o] Error 1
+05:05:11 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+Finished building: ../src/AdmissionSystem.cpp
+ 
+Building file: ../src/Student.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Student.d" -MT"src/Student.o" -o "src/Student.o" "../src/Student.cpp"
+../src/Student.cpp: In constructor ‘Student::Student()’:
+../src/Student.cpp:19:20: error: ambiguous overload for ‘operator=’ (operand types are ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} and ‘int’)
+   19 |  this->center_id = 0;
+      |                    ^
+In file included from /usr/include/c++/9/string:55,
+                 from ../src/Student.h:8,
+                 from ../src/Student.cpp:8:
+/usr/include/c++/9/bits/basic_string.h:665:7: note: candidate: ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’
+  665 |       operator=(const basic_string& __str)
+      |       ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:704:7: note: candidate: ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’
+  704 |       operator=(const _CharT* __s)
+      |       ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:715:7: note: candidate: ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’
+  715 |       operator=(_CharT __c)
+      |       ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:732:7: note: candidate: ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’
+  732 |       operator=(basic_string&& __str)
+      |       ^~~~~~~~
+../src/Student.cpp: At global scope:
+../src/Student.cpp:27:1: error: no declaration matches ‘Student::Student(int, std::string, int, int, int, std::string, float, int, std::string, int, float, int, std::string)’
+   27 | Student :: Student(int id, string name, int rank_a, int rank_b, int rank_c ,string degree, float degree_marks,
+      | ^~~~~~~
+In file included from ../src/Student.cpp:8:
+../src/Student.h:15:7: note: candidates are: ‘Student::Student(const Student&)’
+   15 | class Student {
+      |       ^~~~~~~
+../src/Student.h:33:2: note:                 ‘Student::Student(int, std::string, int, int, int, std::string, float, int, std::string, std::string, float, int, std::string)’
+   33 |  Student(int id, string name, int rank_a, int rank_b, int rank_c ,string degree, float degree_marks,
+      |  ^~~~~~~
+../src/Student.cpp:10:1: note:                 ‘Student::Student()’
+   10 | Student::Student() {
+      | ^~~~~~~
+In file included from ../src/Student.cpp:8:
+../src/Student.h:15:7: note: ‘class Student’ defined here
+   15 | class Student {
+      |       ^~~~~~~
+make: *** [src/Student.o] Error 1
+src/subdir.mk:30: recipe for target 'src/Student.o' failed
+05:05:28 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/Student.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Student.d" -MT"src/Student.o" -o "src/Student.o" "../src/Student.cpp"
+../src/Student.cpp: In constructor ‘Student::Student()’:
+../src/Student.cpp:19:20: error: ambiguous overload for ‘operator=’ (operand types are ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} and ‘int’)
+   19 |  this->center_id = 0;
+      |                    ^
+In file included from /usr/include/c++/9/string:55,
+                 from ../src/Student.h:8,
+                 from ../src/Student.cpp:8:
+/usr/include/c++/9/bits/basic_string.h:665:7: note: candidate: ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’
+  665 |       operator=(const basic_string& __str)
+      |       ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:704:7: note: candidate: ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’
+  704 |       operator=(const _CharT* __s)
+      |       ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:715:7: note: candidate: ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’
+  715 |       operator=(_CharT __c)
+      |       ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:732:7: note: candidate: ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’
+  732 |       operator=(basic_string&& __str)
+      |       ^~~~~~~~
+make: *** [src/Student.o] Error 1
+src/subdir.mk:30: recipe for target 'src/Student.o' failed
+05:05:45 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/Student.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Student.d" -MT"src/Student.o" -o "src/Student.o" "../src/Student.cpp"
+Finished building: ../src/Student.cpp
+ 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+05:12:51 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/AdmissionSystem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AdmissionSystem.d" -MT"src/AdmissionSystem.o" -o "src/AdmissionSystem.o" "../src/AdmissionSystem.cpp"
+Finished building: ../src/AdmissionSystem.cpp
+ 
+Building file: ../src/Student.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Student.d" -MT"src/Student.o" -o "src/Student.o" "../src/Student.cpp"
+Finished building: ../src/Student.cpp
+ 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+05:15:32 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+05:25:43 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void save_students(std::vector<Student>&)’:
+../src/cdac-addmission-system.cpp:114:16: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Student>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  114 |  for(int i=0; i<students.size(); i++) {
+      |               ~^~~~~~~~~~~~~~~~
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+05:27:10 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void save_students(std::vector<Student>&)’:
+../src/cdac-addmission-system.cpp:114:16: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Student>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  114 |  for(int i=0; i<students.size(); i++) {
+      |               ~^~~~~~~~~~~~~~~~
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+05:27:35 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.
+05:27:58 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.
+05:30:29 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+Building file: ../src/cdac-addmission-system.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cdac-addmission-system.d" -MT"src/cdac-addmission-system.o" -o "src/cdac-addmission-system.o" "../src/cdac-addmission-system.cpp"
+../src/cdac-addmission-system.cpp: In function ‘void save_students(std::vector<Student>&)’:
+../src/cdac-addmission-system.cpp:114:16: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Student>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  114 |  for(int i=0; i<students.size(); i++) {
+      |               ~^~~~~~~~~~~~~~~~
+Finished building: ../src/cdac-addmission-system.cpp
+ 
+Building target: cdac-addmission-system
+Invoking: GCC C++ Linker
+g++  -o "cdac-addmission-system"  ./src/AdmissionSystem.o ./src/Center.o ./src/Course.o ./src/Student.o ./src/cdac-addmission-system.o   
+Finished building target: cdac-addmission-system
+ 
+05:31:22 **** Incremental Build of configuration Debug for project cdac-addmission-system ****
+make all 
+make: Nothing to be done for 'all'.

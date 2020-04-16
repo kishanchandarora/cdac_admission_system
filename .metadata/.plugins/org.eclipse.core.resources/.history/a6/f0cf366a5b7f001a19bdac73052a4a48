@@ -1,0 +1,26 @@
+/*
+ * Course.h
+ *
+ *  Created on: 15-Apr-2020
+ *      Author: sunbeam
+ */
+
+#include<string>
+using namespace std;
+#include<iostream>
+
+#ifndef COURSE_H_
+#define COURSE_H_
+
+class Course {
+	int id;
+	string name;
+	string fees;
+	string ccat_section;
+
+public:
+	Course();
+	virtual ~Course();
+};
+
+#endif /* COURSE_H_ */

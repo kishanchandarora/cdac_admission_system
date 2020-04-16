@@ -1,0 +1,35 @@
+/*
+ * Student.cpp
+ *
+ *  Created on: 15-Apr-2020
+ *      Author: sunbeam
+ */
+
+#include "Student.h"
+
+Student::Student() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Student :: Student(int id, string name, int rank_a, int rank_b, int rank_c ,string degree, float degree_marks,
+			 string course_name, int center_id, float payment, int reported, string prn, int preference) {
+	this->id = id;
+	this->name = name;
+	this->rank_a = rank_a;
+	this->rank_b = rank_b;
+	this->rank_c = rank_c;
+	this->degree = degree;
+	this->degree_marks = degree_marks;
+	this->course_name = course_name;
+	this->center_id = center_id;
+	this->payment = payment;
+	this->reported = reported;
+	this->prn = prn;
+	this->preference = preference;
+
+}
+Student::~Student() {
+	// TODO Auto-generated destructor stub
+}
+
